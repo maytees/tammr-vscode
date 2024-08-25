@@ -3,6 +3,7 @@
   "displayName": "tammr-lang",
   "description": "",
   "version": "0.0.1",
+  "publisher": "maytees1",
   "engines": {
     "vscode": "^1.92.0"
   },
@@ -10,16 +11,25 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "tammr",
-      "aliases": ["Tammr Lang", "tammr"],
-      "extensions": [".tmr"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "tammr",
-      "scopeName": "source.tammr",
-      "path": "./syntaxes/tammr.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "tammr",
+        "aliases": [
+          "Tammr Lang",
+          "tammr"
+        ],
+        "extensions": [
+          ".tmr"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "tammr",
+        "scopeName": "source.tammr",
+        "path": "./syntaxes/tammr.tmLanguage.json"
+      }
+    ]
   }
 }
