@@ -4,6 +4,9 @@
   "description": "",
   "version": "0.0.1",
   "publisher": "maytees1",
+  "repository": {
+    "url": "https://github.com/maytees/tammr-vscode"
+  },
   "engines": {
     "vscode": "^1.92.0"
   },
