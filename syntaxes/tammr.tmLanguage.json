@@ -82,7 +82,7 @@
       "patterns": [
         {
           "name": "storage.type.tammr",
-          "match": "\\b(int|str|float|boolean|arr|hash|module)\\b"
+          "match": "\\b(number|str|bool|arr|hash|module)\\b"
         }
       ]
     },
